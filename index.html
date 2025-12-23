@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedQuest Analytics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>RedQuest Analytics</h1>
+        <p>Reverse Ride Hailing for Blood Donation</p>
+    </header>
+
+    <main>
+        <section id="market">
+            <h2>Market Reality</h2>
+            <p>The Philippines requires one million blood units annually, yet we face a chronic 34% deficit.</p>
+            <div class="chart-container">
+                <div class="pie-chart" data-percentage="34"></div>
+                <div class="chart-labels">
+                    <div>Deficit: 34%</div>
+                    <div>Available: 66%</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="users">
+            <h2>User Base</h2>
+            <p>We target students, professionals, and riders (motorcycle logistics partners).</p>
+            <div class="bar-chart">
+                <div class="bar">
+                    <span>Students</span>
+                    <div class="bar-fill" style="width: 40%"></div>
+                </div>
+                <div class="bar">
+                    <span>Professionals</span>
+                    <div class="bar-fill" style="width: 35%"></div>
+                </div>
+                <div class="bar">
+                    <span>Riders</span>
+                    <div class="bar-fill" style="width: 25%"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="architecture">
+            <h2>Architecture</h2>
+            <p>RedQuest is a full-stack logistics platform vs competitors' static directories.</p>
+            <div class="comparison">
+                <div class="competitor">
+                    <h3>Competitors</h3>
+                    <ul>
+                        <li>Read-only databases</li>
+                        <li>Static directories</li>
+                        <li>User figures logistics</li>
+                    </ul>
+                </div>
+                <div class="redquest">
+                    <h3>RedQuest</h3>
+                    <ul>
+                        <li>Full-stack logistics</li>
+                        <li>Executes transport</li>
+                        <li>Automated system</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="feasibility">
+            <h2>Feasibility Triangle</h2>
+            <div class="triangle">
+                <svg viewBox="0 0 100 86.6" class="triangle-svg">
+                    <polygon points="50,0 100,86.6 0,86.6" fill="none" stroke="#dc3545" stroke-width="2"/>
+                    <text x="50" y="25" text-anchor="middle" fill="#dc3545" font-size="8" font-weight="bold">Technical</text>
+                    <text x="20" y="80" text-anchor="middle" fill="#dc3545" font-size="8" font-weight="bold">Operational</text>
+                    <text x="80" y="80" text-anchor="middle" fill="#dc3545" font-size="8" font-weight="bold">Economic</text>
+                </svg>
+            </div>
+            <p>Technically sound, operationally automated, economically lean.</p>
+        </section>
+
+        <section id="cost">
+            <h2>MVP Cost</h2>
+            <p>Launching for just 10 to 15,000 Pesos—covering cloud hosting, Firebase services, and mapping APIs.</p>
+            <div class="cost-display">
+                <span class="currency">₱</span>
+                <span class="amount" id="cost-amount">0</span>
+            </div>
+        </section>
+
+        <section id="strategy">
+            <h2>Market Strategy</h2>
+            <p>Institutional partnerships with LGUs and Hospitals. Social targeting of students and riders with Quest reward system.</p>
+            <div class="strategy-icons">
+                <div class="icon">🏛️ LGUs & Hospitals</div>
+                <div class="icon">🎓 Students</div>
+                <div class="icon">🏍️ Riders</div>
+                <div class="icon">🏆 Quest Rewards</div>
+            </div>
+        </section>
+
+        <section id="roadmap">
+            <h2>Roadmap</h2>
+            <div class="timeline">
+                <div class="phase completed">
+                    <h3>Phase 1</h3>
+                    <p>Done</p>
+                </div>
+                <div class="phase current">
+                    <h3>Phase 2: Rapid Development</h3>
+                    <p>Current - Pitch Feb 8th</p>
+                </div>
+                <div class="phase">
+                    <h3>Phase 3</h3>
+                    <p>Incubation</p>
+                </div>
+                <div class="phase">
+                    <h3>Phase 4: Beta Testing</h3>
+                    <p>March 2026</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
